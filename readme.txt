@@ -5,7 +5,7 @@ $git status
 $git diff
 $git log
 $git log --pretty=oneline
-$git reset --hard commit_id
+$git reset --hard commit_id   #本地库置为某历史版本
 $git reflog
 $git diff HEAD -- readme.txt  #查看工作区和版本库里面最新版本的区别
 $git checkout -- readme.txt   #把readme.txt文件在工作区的修改全部撤销
