@@ -14,5 +14,8 @@ $git rm test.txt
 $git push origin master       #把本地master分支的最新修改推送至GitHub
 $git remote add origin git@github.com:fucckktest21/learngit.git     #关联远程库
 $git clone git@github.com:fucckktest21/gitskills.git                #克隆本地库
-$git checkout -b dev         #创建并切换到dev分支,相当于git branch dev ; git checkout dev;
-$git checkout master	     #切换到master分支
+$git branch					  #查看所有分支
+$git checkout -b dev          #创建并切换到dev分支,相当于git branch dev ; git checkout dev;
+$git checkout master	      #切换到master分支
+$git merge                    #合并dev分支到当前分支
+$git branch -d dev            #删除dev分支
