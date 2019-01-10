@@ -19,3 +19,5 @@ $git checkout -b dev          #创建并切换到dev分支,相当于git branch d
 $git checkout master	      #切换到master分支
 $git merge                    #合并dev分支到当前分支
 $git branch -d dev            #删除dev分支
+$git merge --no-ff -m "merge with no-ff" dev       #(禁用Fast forward)合并
+$git log --graph --pretty=oneline --abbrev-commit  #查看分支历史
